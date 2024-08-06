@@ -1,0 +1,38 @@
+.text-shadow-navbar{
+    text-shadow: 
+    -1px -1px 0 #f7c102, 
+    1px -1px 0 #f7c102, 
+    1px 1px 0 #f7c102,
+    1px 1px 0 #f7c102;
+}
+
+
+.border-anim {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.border-anim::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #fad882;
+    transition: width 1s linear;
+}
+
+.border-anim:hover::before {
+    width: 100%;
+}
+
+@keyframes border_animation {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}

@@ -1,0 +1,6 @@
+
+
+.circle{
+    position: relative;
+    clip-path: circle(3% at 50% 50%);
+}

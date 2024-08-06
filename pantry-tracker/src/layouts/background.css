@@ -1,0 +1,8 @@
+.circle-left-bottom{
+    clip-path: circle(50% at 36% 100%);
+}
+
+.elipse-right-top{
+    clip-path: ellipse(14% 37% at 95% 34%);
+    transform: rotate(-10deg);
+}
