@@ -1,4 +1,4 @@
-The Pantry Tracker is a web application designed to manage their pantry items.
+The Pantry Tracker is a web application designed to manage pantry items.
 
 ## Key Technologies:
 - ReactJS
